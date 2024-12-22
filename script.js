@@ -27,7 +27,7 @@ async function getWeeksLeft() {
   const birthDate = new Date(birthYear, birthMonth, birthDay);
 
   // Expected lifespan in years
-  const lifespan = 90;
+  const lifespan = env["LIFESPAN"];
 
   // Current date
   const currentDate = new Date();
